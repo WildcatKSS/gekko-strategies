@@ -1,0 +1,17 @@
+# RSI
+interval = 14
+
+# DEMA
+short = 10
+long = 21
+
+[thresholds]
+# RSI
+low = 30
+high = 70
+RSIpersistence = 1
+
+# DEMA
+down = -0.025
+up = 0.025
+DEMApersistence = 0
