@@ -14,4 +14,3 @@ RSIpersistence = 1
 # DEMA
 down = -0.025
 up = 0.025
-DEMApersistence = 0
