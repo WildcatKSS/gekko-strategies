@@ -6,8 +6,10 @@ Here you can find additonal strategies for the cryptocoin trading bot Gekko.
 ## License MIT
 
 ## Installation
-git clone git://github.com/askmike/gekko.git -b master
-
+`git clone https://github.com/WildcatKSS/gekko-strategies.git -b master`
+`cp gekko-strategies/* gekko -R`
+`cd gekko`
+`npm install`
 
 ## Gekko
 
