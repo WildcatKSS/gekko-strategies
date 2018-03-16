@@ -12,7 +12,7 @@ MIT License
 
 `cd gekko`
 
-`npm install convnetjs zero-fill stats-lite numbro mathjs cluster lodash.ismatch gauss`
+`npm install talib tulind convnetjs zero-fill stats-lite numbro mathjs cluster lodash.ismatch gauss`
 
 ## The strategies
 
