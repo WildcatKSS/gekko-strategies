@@ -29,13 +29,12 @@ The following table arranges the most commonly used indicators by categories. No
 
 | Momentum | Trend | Volatility | Chart Studies |
 | :---: | :---: | :---: | :---: |
-| Stochastic | ADX | Bollinger Bands| Horizontal lines – range trading and breakouts |
-| RSI | Moving Averages | Standard Deviation | Fibonaccis – retracements and pullbacks |
-| CCI | ATR | ATR | Fib extensions – trend following targets |
-| Williams % | MACD | Keltner Channel | Trendlines – trend following and breakout |
-| MACD | Parabolic SAR | Envelopes | |	
-| | Bollinger Bands| | |		
-| Ichimoku Cloud | Ichimoku Cloud | | |
+| [PPO](https://www.tradingview.com/wiki/Price_Oscillator_(PPO)) | [EMA](https://www.investopedia.com/terms/e/ema.asp) | | |
+| [CCI](https://www.tradingview.com/wiki/Commodity_Channel_Index_(CCI)) | [DEMA](https://www.investopedia.com/terms/d/double-exponential-moving-average.asp) | | |
+| [RSI](https://www.tradingview.com/wiki/Relative_Strength_Index_(RSI)) | [LRC](http://stealthtraders.com/indicators/lrc/) | | |
+| [MACD](https://www.investopedia.com/terms/m/macd.asp) | [MACD](https://www.tradingview.com/wiki/MACD_(Moving_Average_Convergence/Divergence)) | | |
+| [TSI](https://www.investopedia.com/terms/t/tsi.asp) | [SMA](https://www.investopedia.com/terms/s/sma.asp) | | |
+| [UO](https://www.tradingview.com/wiki/Ultimate_Oscillator_(UO)) | | | |
 
 #### Indicator redundancy – duplicate signals
 
