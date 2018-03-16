@@ -3,6 +3,12 @@ Additional strategies for Gekko
 
 Here you can find additonal strategies for the cryptocoin trading bot Gekko.
 
+## License MIT
+
+## Installation
+git clone git://github.com/askmike/gekko.git -b master
+
+
 ## Gekko
 
 Without Gekko these stategies are worth nothing. So before you continue, if you havent done it already, install and run [Gekko](https://gekko.wizb.it/) first.
