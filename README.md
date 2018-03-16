@@ -8,8 +8,11 @@ MIT License
 
 ## Installation
 `git clone https://github.com/WildcatKSS/gekko-strategies.git -b master`
+
 `cp gekko-strategies/* gekko -R`
+
 `cd gekko`
+
 `npm install`
 
 ## Gekko
