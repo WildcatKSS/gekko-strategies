@@ -1,4 +1,5 @@
 # Gekko strategies [![HitCount](http://hits.dwyl.io/WildcatKSS/gekko-strategies.svg)](http://hits.dwyl.io/WildcatKSS/gekko-strategies)
+
 Additional strategies for Gekko
 
 Here you can find additonal strategies for the cryptocoin trading bot Gekko.
