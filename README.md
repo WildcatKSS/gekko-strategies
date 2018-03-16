@@ -15,10 +15,6 @@ MIT License
 
 `npm install`
 
-## Gekko
-
-Without Gekko these stategies are worth nothing. So before you continue, if you havent done it already, install and run [Gekko](https://gekko.wizb.it/) first.
-
 ## The strategies
 
 The standaard strategies are nice but they are not a winning team. Therefore I created some strategies of my own based on trading theories and strategies I found all over the internet.
