@@ -3,7 +3,8 @@ Additional strategies for Gekko
 
 Here you can find additonal strategies for the cryptocoin trading bot Gekko.
 
-## License MIT
+## License
+MIT
 
 ## Installation
 `git clone https://github.com/WildcatKSS/gekko-strategies.git -b master`
