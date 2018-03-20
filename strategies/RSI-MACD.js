@@ -73,7 +73,6 @@ method.log = function(candle) {
         var rsi = this.indicators.rsi;
         var macd = this.indicators.macd;
 
-/*
         log.debug('');
         log.debug('=============================================================');
         log.debug('calculated RSI properties for candle:');
@@ -89,7 +88,6 @@ method.log = function(candle) {
         log.debug('\t', 'MACD:', macd.result.toFixed(digits))
         log.debug('=============================================================');
         log.debug('');
-*/
         
 }
 
