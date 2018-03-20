@@ -102,9 +102,11 @@ method.check = function(candle) {
         var messageMomentum = '@ ' + price.toFixed(digits) + ' (' + rsiVal.toFixed(digits) + ')';
         
         // Variables for MACD
-        var macd = this.indicator.macd;
-        var macdVal = macd.result;
-        var messageTrend = '@ ' + price.toFixed(digits) + ' (' + macdVal.toFixed(digits) + ')';
+//        var macd = this.indicator.macd;
+//        var macdVal = macd.result;
+//        var messageTrend = '@ ' + price.toFixed(digits) + ' (' + macdVal.toFixed(digits) + ')';
+        var macddiff = this.indicators.macd.result;
+
 
         // RSI - MACD
         if(rsiVal > this.settings.rsi.high) {
@@ -146,7 +148,57 @@ method.check = function(candle) {
                 log.debug('No momentum', messageMomentum);
         
         }        
+
         
+        
+   if(macddiff > this.settings.thresholds.up) {
+
+    // new trend detected
+    if(this.trend.direction !== 'up')
+      // reset the state for the new trend
+      this.trend = {
+        duration: 0,
+        persisted: false,
+        direction: 'up',
+        adviced: false
+      };
+
+    this.trend.duration++;
+
+    log.debug('In uptrend since', this.trend.duration, 'candle(s)');
+
+    if(this.trend.duration >= this.settings.thresholds.persistence)
+      this.trend.persisted = true;
+
+
+  } else if(macddiff < this.settings.thresholds.down) {
+
+    // new trend detected
+    if(this.trend.direction !== 'down')
+      // reset the state for the new trend
+      this.trend = {
+        duration: 0,
+        persisted: false,
+        direction: 'down',
+        adviced: false
+      };
+
+    this.trend.duration++;
+
+    log.debug('In downtrend since', this.trend.duration, 'candle(s)');
+
+    if(this.trend.duration >= this.settings.thresholds.persistence)
+      this.trend.persisted = true;
+
+
+  } 
+}
+      
+        
+        
+        
+        
+/*
         if(macdVal > this.settings.macd.up) {
                 // New trend detected
                 if(this.trend.direction !== 'up')
@@ -186,6 +238,7 @@ method.check = function(candle) {
                 log.debug('No trend', messageTrend);
 
         }
+*/
 
         if(this.trend.direction == 'up' && this.trend.persisted && !this.trend.adviced && this.momentum.direction == 'low' && this.momentum.persisted && !this.momentum.adviced) {
                 this.trend.adviced = true;
