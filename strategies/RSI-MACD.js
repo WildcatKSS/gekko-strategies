@@ -84,7 +84,7 @@ method.log = function(candle) {
         log.debug('\t', 'Long:', macd.long.result.toFixed(digits));
         log.debug('\t', 'Short:', macd.short.result.toFixed(digits));
         log.debug('\t', 'MACDDiff:', macd.diff.toFixed(digits));
-        log.debug('\t', 'Signal:', macd.signal.toFixed(digits));
+        log.debug('\t', 'Signal:', macd.signal.result.toFixed(digits));
         log.debug('\t', 'MACD:', macd.result.toFixed(digits))
         log.debug('=============================================================');
         log.debug('');
