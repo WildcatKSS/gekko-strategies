@@ -92,7 +92,7 @@ method.log = function(candle) {
 }
 
 // Based on the newly calculated information, check if we should but or sell.
-method.check = function(candle) {
+method.check = function() {
         var price = candle.close;
         var digits = 8;
         
