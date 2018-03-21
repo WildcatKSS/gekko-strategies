@@ -60,15 +60,15 @@ method.init = function() {
         this.persistance = this.settings.thresholds.persistance;
         
         // Define the indicators we need
-        this.addIndicator('rsi', 'RSI', RSIsettings);
-        this.addIndicator('dema', 'DEMA', DEMAsettings);
+        this.addIndicators('rsi', 'RSI', RSIsettings);
+        this.addIndicators('dema', 'DEMA', DEMAsettings);
 }
 
 // What happens on every new candle?
 method.update = function(candle) {
         this.price = candle.close;
-        this.rsi = this.indicator.RSI.result.result;
-        this.dema = this.indicator.dema.result;
+        this.rsi = this.indicators.rsi.result.result;
+        this.dema = this.indicators.dema.result;
 }
 
 // For debugging purposes.
