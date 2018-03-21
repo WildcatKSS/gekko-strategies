@@ -67,8 +67,8 @@ method.init = function() {
 // What happens on every new candle?
 method.update = function(candle) {
         this.price = candle.close;
-        this.rsi = this.indicator.rsi.result
-        this.dema = this.indicator.dema.result
+        this.rsi = this.Indicator.rsi.result;
+        this.dema = this.Indicator.dema.result;
 }
 
 // For debugging purposes.
