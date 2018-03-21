@@ -97,7 +97,7 @@ method.check = function(candle) {
 
                 this.trend.duration++;
 
-                log.debug('In uptrend since', this.trend.duration, 'candle (s)');
+                log.info('In uptrend since', this.trend.duration, 'candle (s)');
 
                 if(this.trend.duration >= this.persistence)
                         this.trend.persisted = true;
@@ -122,7 +122,7 @@ method.check = function(candle) {
 
                 this.trend.duration++;
 
-                log.debug('In downtrend since', this.trend.duration, 'candle (s)');
+                log.info('In downtrend since', this.trend.duration, 'candle (s)');
 
                 if(this.trend.duration >= this.persistence)
                         this.trend.persisted = true;
@@ -137,7 +137,7 @@ method.check = function(candle) {
 
         } else {
 
-                log.debug('No trend');
+                log.info('No trend');
         
         }        
 }
