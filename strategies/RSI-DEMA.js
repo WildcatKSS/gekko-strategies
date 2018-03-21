@@ -97,10 +97,11 @@ method.check = function(candle) {
 
                 this.trend.duration++;
 
-                log.info('In uptrend since', this.trend.duration, 'candle (s)');
+                log.info('In uptrend since', this.trend.duration, 'candle(s)');
 
-                if(this.trend.duration >= this.persistence)
+                if(this.trend.duration >= this.persistence){
                         this.trend.persisted = true;
+                }
                 
                 if (this.trend.persisted && !this.trend.adviced) {
                         this.trend.adviced = true;
@@ -122,10 +123,11 @@ method.check = function(candle) {
 
                 this.trend.duration++;
 
-                log.info('In downtrend since', this.trend.duration, 'candle (s)');
+                log.info('In downtrend since', this.trend.duration, 'candle(s)');
 
-                if(this.trend.duration >= this.persistence)
+                if(this.trend.duration >= this.persistence){
                         this.trend.persisted = true;
+                }
 
                 if (this.trend.persisted && !this.trend.adviced) {
                         this.trend.adviced = true;
