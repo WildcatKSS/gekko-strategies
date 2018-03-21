@@ -1,5 +1,5 @@
 [RSI]
-interval = 14
+optInTimePeriod = 14
 
 [DEMA]
 short = 10
