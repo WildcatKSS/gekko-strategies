@@ -86,7 +86,7 @@ method.log = function(candle) {
 
 // Based on the newly calculated information, check if we should but or sell.
 method.check = function(candle) {
-        if(this.rsi < this.RSIlow && this.dema > this.DEMAup) {
+        if(this.rsi > this.RSIhigh && this.dema > this.DEMAup) {
                 // New trend detected
                 if(this.trend.direction !== 'high')
                         this.trend = {
@@ -111,7 +111,7 @@ method.check = function(candle) {
                         this.advice();
                 }
         
-        } else if(this.rsi > this.RSIhigh && this.dema < this.DEMAdown) {
+        } else if(this.rsi < this.RSIlow && this.dema < this.DEMAdown) {
                 // New trend detected
                 if(this.trend.direction !== 'low')
                         this.trend = {
