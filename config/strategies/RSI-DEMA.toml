@@ -8,8 +8,6 @@ long = 21
 [thresholds]
 RSIlow = 30
 RSIhigh = 70
-
 DEMAup = 0.025
 DEMAdown = -0.025
-
 persistence = 1
