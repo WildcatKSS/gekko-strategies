@@ -73,14 +73,13 @@ method.update = function(candle) {
 
 // For debugging purposes.
 method.log = function(candle) {
-
-        log.debug('
+        log.debug(`
         =============================================================
         Price: ${this.price}
         RSI: ${this.rsi}
         DEMA: ${this.dema}
         =============================================================
-        ');
+        `);
 
 }
 
