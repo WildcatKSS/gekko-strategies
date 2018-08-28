@@ -1,6 +1,6 @@
 # Gekko strategies
 
-Here you can find additonal strategies for the cryptocoin trading bot Gekko.
+Here you find additonal strategies for the cryptocoin trading bot Gekko.
 
 ## License
 MIT License
