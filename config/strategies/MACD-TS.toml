@@ -1,0 +1,10 @@
+short = 15
+long = 30
+signal = 9
+
+[thresholds]
+up = 2
+down = -2
+persistence = 1
+
+trailingstop = 0.90
