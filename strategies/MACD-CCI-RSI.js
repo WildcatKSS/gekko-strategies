@@ -55,7 +55,7 @@ method.init = function() {
 	
 	// define the thresholds
 	this.MACDup = this.settings.thresholds.MACDup;
-    this.MACDdown = this.settings.thresholds.MACDdown;
+    	this.MACDdown = this.settings.thresholds.MACDdown;
 	this.MACDpersistence = this.settings.thresholds.MACDpersistence;
 	this.CCIup = this.settings.thresholds.CCIup;
 	this.CCIdown = this.settings.thresholds.CCIdown;
