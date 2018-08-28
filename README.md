@@ -16,6 +16,10 @@ Run the following commands beside the gekko directory:
 
 `npm install talib tulind convnetjs zero-fill stats-lite numbro mathjs cluster lodash.ismatch gauss`
 
+`cd exchange`
+
+`npm install talib tulind convnetjs zero-fill stats-lite numbro mathjs cluster lodash.ismatch gauss`
+
 ## Update
 Run the following commands inside the gekko-strategies directory:
 
